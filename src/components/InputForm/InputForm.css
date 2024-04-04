@@ -1,0 +1,38 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field{
+border: 1px solid #ffffff;
+background-color: transparent;
+padding: 5px 5px 5px 5px;
+border-radius: 8px;
+}
+
+
+.button{
+    border: 1px solid #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 1px solid #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
